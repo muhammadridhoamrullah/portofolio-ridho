@@ -4,6 +4,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTelegramPlane } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import javaScript from "../assets/javaScript.png";
 import typeScript from "../assets/typeScript.png";
@@ -32,6 +33,7 @@ import contohPorto from "../assets/contohPorto.png";
 // Express, Sequelize, PostgreSQL, Rest API, MongoDB, Apollo GraphQL, Redis
 
 export default function LandingPage() {
+  const CVRidho = "./cvMRidhoA.pdf";
   return (
     <div className="flex flex-col bg-indigo-900">
       {/* Awal Home */}
@@ -54,6 +56,14 @@ export default function LandingPage() {
             <text className="text-yellow-500 font-bold">
               Work & Collaboration.
             </text>
+            <div className="mt-4 flex gap-3">
+              <div>Download my CV : </div>{" "}
+              <div>
+                <a href={CVRidho} download="cvMRidhoa.pdf">
+                  <FaDownload className="hover:text-green-500" size={30} />
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div className="flex-1 mt-10 flex items-center justify-center ">
