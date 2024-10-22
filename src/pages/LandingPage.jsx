@@ -6,7 +6,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaLaptopCode } from "react-icons/fa";
 import { FaDownload } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import javaScript from "../assets/javaScript.png";
+import javaScript from "../assets/javacript.png";
 import typeScript from "../assets/typeScript.png";
 import react from "../assets/react.svg";
 import html from "../assets/html.png";
